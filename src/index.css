@@ -1,13 +1,218 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:'Roboto';
+  background-color: #fffbfb;
+  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Roboto',
     monospace;
+}
+
+/* side bar css */
+.sidebarContainer{
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 700px;
+}
+/* home css */
+.home{
+  display: flex;
+
+}
+
+.homemaincontainer{
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffbfb;
+  display: block;
+}
+
+.deshboardfooter{
+  display: flex;
+}
+/* deshBoard css */
+.deshBoardHeader{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content:space-around;
+
+
+}
+.headerinvoice{
+  width: 220px;
+  height: 120px;
+ background-color:#ffffff;
+  display: block;
+  border-radius: 5px;
+
+}
+.headertop{
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 700;
+}
+.headerinvoicebottom{
+  display: flex;
+gap: 40px;
+padding: 10px;
+margin-right: 22px;
+}
+.headerinvoicebottom span{
+  margin: auto;
+  font-size: 12px;
+}
+.headerinvoicebottom div{
+ border-radius: 5px;
+ font-size: 12px;
+
+}
+
+.deshboardrecenttop{
+  width: 200px;
+  height: 60px;
+
+  text-align: center;
+  position: relative;
+  display: block;
+
+}
+.deshboardrecenttop p{
+ text-align: center;
+  font-weight: 800;
+  position: absolute;
+  margin-left: 10px;
+  
+}
+
+.deshboardrecentcontainer{
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 500px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.deshboardpreviewcontainer{
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 500px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.customerHerosContainer{
+  width:800px;
+  height: auto;
+  margin: auto;
+  background-color: rgb(254, 255, 255);
+}
+.customerherostop{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: rgb(232, 226, 226);
+  width:1024px;
+  height: 50px;
+  margin: auto;
+  font-weight: 800;
+}
+.customerheroarrow{
+  margin-left: 20px;
+}
+.customerheroheader{
+  display: flex;
+  width: 400px;
+  height: 40px;
+  justify-content:space-around;
+  align-items: center;
+}
+.customerheroheader div{
+  margin-top: 20px;
+  border-radius: 2px;
+  border: none;
+  height: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+/*slpcPage*/
+.slpcPage{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+/*chart css*/
+.chart {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+}
+
+.chartpages{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+/*customer pages css*/
+.customerpages{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+/*customerHerosContainer css*/
+.customerHerosContainer{
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 25px;
+}
+
+/*employeeContainer*/
+
+.employeeContainer{
+  width: auto;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-right:20px;
+  
+}
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #bfdcd1;
+  color: rgb(0, 0, 0);
 }
